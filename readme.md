@@ -17,7 +17,7 @@
 **Fork** -> different project from one
 
 ---
-#### Workflow
+## Workflow
 ![work flow](https://kelvinleong.github.io/resources/Git/git-workflow.jpg)
 
 ---
