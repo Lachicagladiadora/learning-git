@@ -22,16 +22,20 @@
 
 ---
 ## Commands 
+### General
 `git add` / `git add -A` / `git add .`
 `git commit` **fileName** / `git commit -m` **'fileName'** 
 `git commit -am` **'fileName'**
 
+### Modify commit / Status / All commits
 `git commit --amend` 
 `git status`
 `git checkout` **'fileName'**
 `git log` / `git log --oneline` / `git log --oneline --decorate`
 
+### Compare
 `git diff` / `git diff --staged` / `git diff` **hash1 _hash2_** 
 
+### Undo 
 `git reset` **'hash'** / `git reset --hard` **'hash'** / `git reset --soft` **'hash'**
 `git revert` **HEAD** / `git revert --no-commit` **HEAD** / `git revert --continue
