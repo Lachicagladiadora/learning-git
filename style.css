@@ -15,7 +15,7 @@ a{
     background: #323232;
     padding: 5px 0;
     &:hover{
-        color: rgb(119, 194, 255);
+        color: rgb(162, 245, 233);
         text-shadow: 1px 1px 10px  #e6e6e6;
         font-size: 18px;
     }
@@ -30,4 +30,23 @@ nav{
     height: 30px;
     display: flex;
     align-items: center;
+}
+
+.title{
+    text-align: center;
+}
+
+.subtitle{
+    text-align: right;
+    color: #b4b4b4;
+}
+
+.content{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    color: #525252;
 }
