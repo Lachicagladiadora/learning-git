@@ -24,6 +24,14 @@
 
 ---
 ## Commands 
+### Config first time
+- name -> `git config --global user.name <"John Doe">`
+- email -> `git config --global user.email <johndoe@example.com>`
+- editor -> `git config --global core.editor <editor>`
+- default branch Name -> `git config --global init.defaultBranch main`
+
+SHOW CONFIG: `git config --list`
+
 ### General
 - `git add` / `git add -A` / `git add .`
 - `git commit` **fileName** / `git commit -m` **'fileName'** 
